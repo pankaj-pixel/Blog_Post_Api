@@ -1,0 +1,415 @@
+[
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "obtain_auth_token",
+        "importPath": "rest_framework.authtoken.views",
+        "description": "rest_framework.authtoken.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.authtoken.views",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "authentication_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "permission_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "migrations.0001_initial",
+        "description": "migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Blog',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('Blog_title', models.CharField(max_length=100)),",
+        "detail": "migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "migrations.0002_alter_blog_status",
+        "description": "migrations.0002_alter_blog_status",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='blog',\n            name='Status',\n            field=models.CharField(choices=[('Draft', 'Draft'), ('Published', 'Published')], max_length=100),\n        ),",
+        "detail": "migrations.0002_alter_blog_status",
+        "documentation": {}
+    },
+    {
+        "label": "CoreConfig",
+        "kind": 6,
+        "importPath": "apps",
+        "description": "apps",
+        "peekOfCode": "class CoreConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'core'",
+        "detail": "apps",
+        "documentation": {}
+    },
+    {
+        "label": "Blog",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class Blog(models.Model):\n    Blog_title = models.CharField(max_length=100)\n    Content  = models.TextField()\n    Author  = models.CharField(max_length=100)\n    Created_at = models.DateTimeField()\n    Status = models.CharField(choices=Status,max_length=100)\n    def __str__(self):\n        return self.Blog_title",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "BlogSerializer",
+        "kind": 6,
+        "importPath": "serializers",
+        "description": "serializers",
+        "peekOfCode": "class BlogSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Blog\n        fields ='__all__'",
+        "detail": "serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "urls",
+        "description": "urls",
+        "peekOfCode": "urlpatterns = [\n    path('api/', blogview,name='BlogsView'),\n    path('api/<int:id>', BlogById,name='Blogbyid'),\n    #path('/login/', blogview,name='BlogsView')\n    #path('blogs/', blog_list_view, name='blog_list_view'),\n    #path('blogs/<int:blog_id>/',blog_detail_view, name='blog_detail_view'),\n    path('', homepage, name='homepage'),\n    path('list/', admin_blog_list_view, name='blog_list'),\n    path('blogs/create/',admin_blog_create_view, name='admin_blog_create'),\n    path('blogs/<int:blog_id>/', admin_blog_detail_view, name='blog_detail'),",
+        "detail": "urls",
+        "documentation": {}
+    },
+    {
+        "label": "signupview",
+        "kind": 2,
+        "importPath": "views",
+        "description": "views",
+        "peekOfCode": "def signupview(request):\n    print(\"request Type : \",request.method)\n    print(request.POST.get('username'))\n    print(request.POST.get('password1'))\n    print(request.POST.get('password2'))\n    if request.method =='POST':\n        form = UserCreationForm(request.POST)\n        print(\"Create form\")\n        if form.is_valid():\n            print(\"form is valid\")",
+        "detail": "views",
+        "documentation": {}
+    },
+    {
+        "label": "signinview",
+        "kind": 2,
+        "importPath": "views",
+        "description": "views",
+        "peekOfCode": "def signinview(request):\n    if request.method =='POST':\n        form = AuthenticationForm(data = request.POST)\n        if form.is_valid():\n            return redirect('blog_list')\n    else:\n        form = AuthenticationForm()\n    return render(request,'registration/signin.html',{\"form\":form})        \n@login_required \ndef logoutview(request):",
+        "detail": "views",
+        "documentation": {}
+    },
+    {
+        "label": "logoutview",
+        "kind": 2,
+        "importPath": "views",
+        "description": "views",
+        "peekOfCode": "def logoutview(request):\n    logout(request)\n    messages.info(request,\"Logged out Successfully!\")\n    return redirect('homepage')\ndef homepage(request):\n    return render(request,'home.html')\n@api_view(['GET','POST'])",
+        "detail": "views",
+        "documentation": {}
+    },
+    {
+        "label": "homepage",
+        "kind": 2,
+        "importPath": "views",
+        "description": "views",
+        "peekOfCode": "def homepage(request):\n    return render(request,'home.html')\n@api_view(['GET','POST'])\ndef blogview(request):\n    if request.method =='GET':\n        queryset = Blog.objects.all()\n        serilize = BlogSerializer(queryset,many=True)\n        return Response(serilize.data)\n    elif request.method =='POST':\n        queryset = BlogSerializer(data = request.data)",
+        "detail": "views",
+        "documentation": {}
+    },
+    {
+        "label": "blogview",
+        "kind": 2,
+        "importPath": "views",
+        "description": "views",
+        "peekOfCode": "def blogview(request):\n    if request.method =='GET':\n        queryset = Blog.objects.all()\n        serilize = BlogSerializer(queryset,many=True)\n        return Response(serilize.data)\n    elif request.method =='POST':\n        queryset = BlogSerializer(data = request.data)\n        if queryset.is_valid():\n            queryset.save()\n            return Response(\"Post Successfully\")",
+        "detail": "views",
+        "documentation": {}
+    },
+    {
+        "label": "BlogById",
+        "kind": 2,
+        "importPath": "views",
+        "description": "views",
+        "peekOfCode": "def BlogById(request, id):\n    try:\n        blog = Blog.objects.get(id=id)\n    except Blog.DoesNotExist:\n        return Response({\"error\": \"Blog not found.\"}, )\n    if request.method == 'GET':\n        serializer = BlogSerializer(blog)\n        return Response(serializer.data)\n    elif request.method == 'PUT':\n        serializer = BlogSerializer(blog, data=request.data)",
+        "detail": "views",
+        "documentation": {}
+    },
+    {
+        "label": "bloghome",
+        "kind": 2,
+        "importPath": "views",
+        "description": "views",
+        "peekOfCode": "def bloghome(request):\n    return render(request, 'home.html')\n@login_required \ndef blog_list_view(request):\n    response = requests.get(API_BASE_URL)\n    blogs = response.json() if response.status_code == 200 else []\n    return render(request, 'blog_list.html', {'blogs': blogs})\n@login_required \ndef admin_blog_list_view(request):\n    response = requests.get(API_BASE_URL)",
+        "detail": "views",
+        "documentation": {}
+    },
+    {
+        "label": "blog_list_view",
+        "kind": 2,
+        "importPath": "views",
+        "description": "views",
+        "peekOfCode": "def blog_list_view(request):\n    response = requests.get(API_BASE_URL)\n    blogs = response.json() if response.status_code == 200 else []\n    return render(request, 'blog_list.html', {'blogs': blogs})\n@login_required \ndef admin_blog_list_view(request):\n    response = requests.get(API_BASE_URL)\n    blogs = response.json() if response.status_code == 200 else []\n    return render(request, 'blog_list.html', {'blogs': blogs})\n@login_required ",
+        "detail": "views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_blog_list_view",
+        "kind": 2,
+        "importPath": "views",
+        "description": "views",
+        "peekOfCode": "def admin_blog_list_view(request):\n    response = requests.get(API_BASE_URL)\n    blogs = response.json() if response.status_code == 200 else []\n    return render(request, 'blog_list.html', {'blogs': blogs})\n@login_required \ndef admin_blog_detail_view(request, blog_id):\n    response = requests.get(f\"{API_BASE_URL}{blog_id}\")  \n    blog = response.json() if response.status_code == 200 else {}\n    print(\"Blog Details:\", blog)\n    return render(request, 'blog_detail.html', {'blog': blog})",
+        "detail": "views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_blog_detail_view",
+        "kind": 2,
+        "importPath": "views",
+        "description": "views",
+        "peekOfCode": "def admin_blog_detail_view(request, blog_id):\n    response = requests.get(f\"{API_BASE_URL}{blog_id}\")  \n    blog = response.json() if response.status_code == 200 else {}\n    print(\"Blog Details:\", blog)\n    return render(request, 'blog_detail.html', {'blog': blog})\nfrom datetime import datetime\n@login_required \ndef admin_blog_create_view(request):\n    if request.method == 'POST':\n        data = {",
+        "detail": "views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_blog_create_view",
+        "kind": 2,
+        "importPath": "views",
+        "description": "views",
+        "peekOfCode": "def admin_blog_create_view(request):\n    if request.method == 'POST':\n        data = {\n            'Blog_title': request.POST.get('Blog_title'),\n            'Content': request.POST.get('Content'),\n            'Author': request.POST.get('Author'),\n            'Status': request.POST.get('Status'),\n            'Created_at': datetime.now().isoformat()  \n        }\n        response = requests.post(API_BASE_URL, json=data)",
+        "detail": "views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_blog_update_view",
+        "kind": 2,
+        "importPath": "views",
+        "description": "views",
+        "peekOfCode": "def admin_blog_update_view(request, blog_id):\n    response = requests.get(f\"{API_BASE_URL}{blog_id}\")\n    blog = response.json() if response.status_code == 200 else {}\n    if not blog:\n        return render(request, '404.html', status=404)  \n    if request.method == 'POST':\n        data = {\n            'Blog_title': request.POST.get('Blog_title'),\n            'Content': request.POST.get('Content'),\n            'Author': request.POST.get('Author'),",
+        "detail": "views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_blog_delete_view",
+        "kind": 2,
+        "importPath": "views",
+        "description": "views",
+        "peekOfCode": "def admin_blog_delete_view(request, blog_id):\n    if request.method == 'POST':\n        response = requests.delete(f\"{API_BASE_URL}{blog_id}\")\n        if response.status_code == 200:\n            messages.success(request, \" Blog deleted successfully.\")\n        else:\n            messages.error(request, f\"⚠️ Failed to delete blog. Status code: {response.status_code}\")\n    return redirect('blog_list')",
+        "detail": "views",
+        "documentation": {}
+    },
+    {
+        "label": "API_BASE_URL",
+        "kind": 5,
+        "importPath": "views",
+        "description": "views",
+        "peekOfCode": "API_BASE_URL = 'http://127.0.0.1:8000/api/'\ndef bloghome(request):\n    return render(request, 'home.html')\n@login_required \ndef blog_list_view(request):\n    response = requests.get(API_BASE_URL)\n    blogs = response.json() if response.status_code == 200 else []\n    return render(request, 'blog_list.html', {'blogs': blogs})\n@login_required \ndef admin_blog_list_view(request):",
+        "detail": "views",
+        "documentation": {}
+    }
+]

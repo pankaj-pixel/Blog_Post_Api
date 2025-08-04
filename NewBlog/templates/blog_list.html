@@ -76,6 +76,8 @@
     <div class="dashboard-header d-flex justify-content-between align-items-center shadow-sm">
         <h1>📚 Blog Admin Dashboard</h1>
         <a href="{% url 'admin_blog_create' %}" class="btn btn-create text-white">+ Create New Blog</a>
+        <br>
+        <a href="{% url 'logout' %}" class="btn btn-danger text-white">logout</a>
     </div>
 
     {% if blogs %}

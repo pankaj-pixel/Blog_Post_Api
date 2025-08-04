@@ -21,8 +21,6 @@ Components:
 
 Used Django Admin to provide full CRUD functionality for blog posts.
 
-Each blog includes: title, content, author, created_at, status (Draft/Published).
-
 2. REST API (Part 2)
 
 Built with Django REST Framework:

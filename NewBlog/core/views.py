@@ -1,18 +1,74 @@
 from django.shortcuts import render,redirect
 from .models import Blog
 from .serializers import BlogSerializer
+from django.contrib.auth.decorators import login_required
 from rest_framework.decorators import api_view,authentication_classes,permission_classes
 from rest_framework.response import Response
-from rest_framework.authentication import TokenAuthentication
-from rest_framework.permissions import IsAuthenticated
+#from rest_framework.authentication import TokenAuthentication
+#from rest_framework.permissions import IsAuthenticated
 import requests
 from django.contrib import messages
+
+# create user authentication
+from django.contrib.auth import login,authenticate,logout
+from django.contrib.auth.forms import UserCreationForm,AuthenticationForm
+from django.contrib.auth.models import User
+
+
+
+
+def signupview(request):
+    print("request Type : ",request.method)
+    print(request.POST.get('username'))
+    print(request.POST.get('password1'))
+    print(request.POST.get('password2'))
+    if request.method =='POST':
+        form = UserCreationForm(request.POST)
+        print("Create form")
+        if form.is_valid():
+            print("form is valid")
+            user = form.save()
+            #login(request,user)
+            return redirect('blog_list')
+        else:
+            print("form error :",form.errors )
+    else:
+        print("come outside")
+        form = UserCreationForm()
+    return render(request,'registration/signup.html',{"form":form})    
+        
+
+def signinview(request):
+    if request.method =='POST':
+        form = AuthenticationForm(data = request.POST)
+        if form.is_valid():
+            return redirect('blog_list')
+    
+    else:
+        form = AuthenticationForm()
+    return render(request,'registration/signin.html',{"form":form})        
+            
+#@login_required 
+def logoutview(request):
+    logout(request)
+    messages.info(request,"Logged out Successfully!")
+    return redirect('homepage')
+
+
+
+
+
+
+
+
+def homepage(request):
+    return render(request,'home.html')
+
 
 
 
 
 @api_view(['GET','POST'])
-
 def blogview(request):
 
     if request.method =='GET':
@@ -20,10 +76,10 @@ def blogview(request):
         serilize = BlogSerializer(queryset,many=True)
         return Response(serilize.data)
     
-       
     
     elif request.method =='POST':
         queryset = BlogSerializer(data = request.data)
+
         if queryset.is_valid():
             queryset.save()
             return Response("Post Successfully")
@@ -55,20 +111,19 @@ def BlogById(request, id):
 
 
 
-
-
-
 API_BASE_URL = 'http://127.0.0.1:8000/api/'
+
 
 def bloghome(request):
     return render(request, 'home.html')
 
+#@login_required 
 def blog_list_view(request):
     response = requests.get(API_BASE_URL)
     blogs = response.json() if response.status_code == 200 else []
     return render(request, 'blog_list.html', {'blogs': blogs})
 
-
+#@login_required 
 def admin_blog_list_view(request):
     response = requests.get(API_BASE_URL)
     blogs = response.json() if response.status_code == 200 else []
@@ -76,7 +131,7 @@ def admin_blog_list_view(request):
     return render(request, 'blog_list.html', {'blogs': blogs})
 
 
-
+#@login_required 
 def admin_blog_detail_view(request, blog_id):
     response = requests.get(f"{API_BASE_URL}{blog_id}")  
     blog = response.json() if response.status_code == 200 else {}
@@ -86,8 +141,7 @@ from datetime import datetime
 
 
 
-
-
+#@login_required 
 def admin_blog_create_view(request):
     if request.method == 'POST':
         data = {
@@ -97,7 +151,6 @@ def admin_blog_create_view(request):
             'Status': request.POST.get('Status'),
             'Created_at': datetime.now().isoformat()  
         }
-
         response = requests.post(API_BASE_URL, json=data)
 
         if response.status_code in [200, 201]:
@@ -106,7 +159,6 @@ def admin_blog_create_view(request):
             return render(request, 'blog_create.html', {
                 'error': 'Failed to create blog. Please check the fields and try again.'
             })
-
     return render(request, 'blog_create.html')
 
 
@@ -116,7 +168,6 @@ def admin_blog_create_view(request):
 
 
 def admin_blog_update_view(request, blog_id):
-
     response = requests.get(f"{API_BASE_URL}{blog_id}")
     blog = response.json() if response.status_code == 200 else {}
 
